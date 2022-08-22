@@ -1,0 +1,156 @@
+.logo {
+  width: 135px;
+  height: 90%;
+}
+
+.logoFooter {
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.payment-card-img {
+  width: 55px;
+  margin-right: 20px;
+}
+
+.policies {
+  width: 100%;
+}
+
+.itembg {
+  background-image: url("https://res.cloudinary.com/daari0y7l/image/upload/v1660579969/pexels-engin-akyurt-1437267_f3ak5m.jpg");
+  height: 80vh;
+  background-position: center;
+}
+
+#video {
+
+  width: 100vw;
+  margin-top: -88px;
+  z-index: -1;
+  position: fixed;
+  
+
+}
+
+
+.delivery-and-payment-section-img {
+  width: 100%;
+}
+
+.healthy-food-section-img {
+  width: 80%;
+}
+
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+@media (min-width: 992px) {
+  .intro {
+    margin-top: -82.59px;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.intro {
+  background-image: url("https://res.cloudinary.com/daari0y7l/image/upload/v1660319104/pexels-rajesh-tp-1600727_jnm5n7.jpg");
+  height: 100vh;
+}
+
+.backgroundd {
+  background-image: url("https://res.cloudinary.com/daari0y7l/image/upload/v1660404579/pexels-pixabay-357514_c02scy.jpg");
+  height: 90vh;
+  background-position: bottom;
+
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  .intro {
+    margin-top: -85.29px;
+  }
+
+  .backgroundd {
+    margin-top: -85.29px;
+  }
+
+  .itembg {
+    margin-top: -85.29px;
+  }
+}
+
+@media (max-width: 991px) {
+  .intro {
+    margin-top: -85.29px;
+  }
+
+  .backgroundd {
+    margin-top: -85.29px;
+  }
+
+  .itembg {
+    margin-top: -85.29px;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+h1 {
+  font-family: 'roboto';
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
